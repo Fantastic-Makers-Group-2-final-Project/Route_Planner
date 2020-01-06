@@ -74,11 +74,11 @@ I want to be able to view a leader-board
 [Image placeholder]
 ```
 ### Tech Stack
--React
--Node
--Java Script
--Google API
--Trello
+- React
+- Node
+- Java Script
+- Google API
+- Trello
 
 ## Ceremonies
 
