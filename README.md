@@ -6,53 +6,91 @@ An API-based route planner app. for runners and dog-walkers in London. :running:
 First, clone this repository git@github.com:Fantastic-Makers-Group-2-final-Project/Route_Around.git Then:
 
 ```
-Instructions
-
+Installation
+> npm install
 ```
 
 ## User stories:
 ```
-User stories
+As a user
+So I know how far I'm running
+I want to be able to pick a distance
+
+As a runner/user
+So I can go for a run and come back home
+I want to be able to plan a circular route
+
+--- MVP (above) --
+As a user
+So that I know I'm following my route
+I want to be able to track my location
+
+As a user
+So that I can wear appropriate clothing
+I want to know what the weather is/will be like
+
+As a user
+So that I can eat or drink during my walk
+I want the option to see all cafes and restaurants within 500m of my location on the map
+
+-- Nice to have --
+As a user
+So that I can choose how long I want to be out
+I want my route to be based on a time and speed that I choose
+
+As a user
+So that I can remember the nice walk I took last week
+I want to be able to view my previous routes
+
+As a user
+So that I can challenge my friends to compete
+I want to be able to view a leader-board
 
 ```
 
 ## Usages
 ### Choose Distance
 ```
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+[Image placeholder]
 ```
 ### Circular routes
 ```
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+[Image placeholder]
 ```
 ### Location tracking
 ```
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+[Image placeholder]
 ```
 ### Weather forecast
 ```
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+[Image placeholder]
 ```
-### (via) Refreshment locator
+### (via) Refreshment point(s)
 ```
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+[Image placeholder]
 ```
+### Tech Stack
+-React
+-Node
+-Java Script
+-Google API
+-Trello
 
 ## Ceremonies
 
 ### standup
-Daily stand-ups were held at 10:00hrs at the whiteboard (Scrummaster role was rotated daily & pairs on a per task/sprint basis.)
+Daily stand-ups were held at 09:30hrs at the whiteboard (Scrummaster role was rotated daily & pairs on a per task/sprint basis.)
 
 ### Work breakdown
 
 ### estimation
-T-shirt sizing was used to our task estimation and reviewed post-sprint for effectiveness.
+T-shirt sizing is used to our task estimation and reviewed post-sprint for effectiveness.
 
 ### reviews
-Reviews were led by the day's Scrum-master post-sprint at the whiteboard.
+Reviews are led by the day's Scrum-master post-sprint at the whiteboard.
 
 ### Demo
-Demos were scheduled and pitched at the designated Product owners (coaches).
+Demos are scheduled and pitched at the designated Product owners (coaches).
 
 ## Collaborators:
 | <a href="http://fvcproductions.com" target="_blank">**Arjun**</a> | <a href="http://fvcproductions.com" target="_blank">**Elli**</a> | <a href="http://fvcproductions.com" target="_blank">**Alex**</a> | <a href="http://fvcproductions.com" target="_blank">**Ingrid**</a> | <a href="http://fvcproductions.com" target="_blank">**Robert**</a> | <a href="http://fvcproductions.com" target="_blank">**Kehinde**</a> |
@@ -62,4 +100,4 @@ Demos were scheduled and pitched at the designated Product owners (coaches).
 
 ### Collaboration:
 1. Our card wall is here: https://trello.com/b/m2WH1cSw/fantastic-makers-group-2-final-project
-2. Read blogposts of our adventures as a team at:
+2. Read blogposts of our adventures as a team at: https://medium.com/series/dac42574577d/edit
