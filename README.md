@@ -1,54 +1,41 @@
 # Route around app.
-An API-based route planner app. for runners and dog-walkers in London. :laughing:
-
+An API-based route planner app. for runners and dog-walkers in London. :running: :runner:
 
 ## Quickstart
 ### Installation
 First, clone this repository git@github.com:Fantastic-Makers-Group-2-final-Project/Route_Around.git Then:
 
 ```
-bash
-> bundle install
-> bin/rails db:create
-> bin/rails db:migrate
-
-> bundle exec rspec # Run the tests to ensure it works
-> bin/rails server # Start the server at localhost:3000
-```
-### Heroku
-Sign up to Heroku, once you have an Heroku account you can run below commands:
+Instructions
 
 ```
-brew install heroku
-```
 
-```
-heroku create
-git push heroku master
-heroku rake db:migrate
-heroku open
-```
-
-## Usages
-### Signup
-
-
-### Login
-
-
-### Create Post
-
-
-### Edit Post
-
-
-### Own Post Edit limit
-
-
-## Requirements & cards implemented (and in Production):
+## User stories:
 ```
 User stories
 
+```
+
+## Usages
+### Choose Distance
+```
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+```
+### Circular routes
+```
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+```
+### Location tracking
+```
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+```
+### Weather forecast
+```
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+```
+### (via) Refreshment locator
+```
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 ```
 
 ## Ceremonies
@@ -65,14 +52,14 @@ T-shirt sizing was used to our task estimation and reviewed post-sprint for effe
 Reviews were led by the day's Scrum-master post-sprint at the whiteboard.
 
 ### Demo
-Demos were scheduled and performed to the identified Product owners (coaches).
+Demos were scheduled and pitched at the designated Product owners (coaches).
 
 ## Collaborators:
-| <a href="http://fvcproductions.com" target="_blank">**Elfi**</a> | <a href="http://fvcproductions.com" target="_blank">**Ben**</a> | <a href="http://fvcproductions.com" target="_blank">**Emma**</a> | <a href="http://fvcproductions.com" target="_blank">**Robert**</a> | <a href="http://fvcproductions.com" target="_blank">**Ali**</a> | <a href="http://fvcproductions.com" target="_blank">**Kehinde**</a> |
+| <a href="http://fvcproductions.com" target="_blank">**Arjun**</a> | <a href="http://fvcproductions.com" target="_blank">**Elli**</a> | <a href="http://fvcproductions.com" target="_blank">**Alex**</a> | <a href="http://fvcproductions.com" target="_blank">**Ingrid**</a> | <a href="http://fvcproductions.com" target="_blank">**Robert**</a> | <a href="http://fvcproductions.com" target="_blank">**Kehinde**</a> |
 | :---: |:---:| :---:| :---:| :---:| :---:|
-| [![Elfi](https://avatars3.githubusercontent.com/u/29664811?s=400&v=4)](http://fvcproductions.com)    | [![Ben](https://avatars3.githubusercontent.com/u/53790237?s=400&v=4)](http://fvcproductions.com) | [![Emma](https://avatars2.githubusercontent.com/u/47917612?s=400&v=4)](http://fvcproductions.com)  | [![Robert](https://avatars2.githubusercontent.com/u/42300628?s=400&v=4)](http://fvcproductions.com)  | [![Ali](https://avatars1.githubusercontent.com/u/54022123?s=400&v=4)](http://fvcproductions.com)  | [![Kehinde](https://avatars3.githubusercontent.com/u/33905131?s=460&v=4)](http://fvcproductions.com)  |
-| <a href="https://github.com/elfiyang16" target="_blank">`github.com/elfiyang16`</a> | <a href="https://github.com/Ben230" target="_blank">`github.com/Ben230`</a> | <a href="https://github.com/emmavanoss" target="_blank">`github.com/emmavanoss`</a> | <a href="https://github.com/robertwoolley99" target="_blank">`github.com/robertwoolley99`</a> | <a href="https://github.com/ali-phipps" target="_blank">`github.com/ali-phipps`</a> | <a href="https://github.com/KOlofinmoyin" target="_blank">`github.com/KOlofinmoyin`</a>
+| [![Arjun](https://avatars3.githubusercontent.com/u/53835165?s=400&v=4)](http://fvcproductions.com)    | [![Elli](https://avatars3.githubusercontent.com/u/52325980?s=400&v=4)](http://fvcproductions.com) | [![Alex](https://avatars2.githubusercontent.com/u/53951705?s=400&v=4)](http://fvcproductions.com)  | [![Ingrid](https://avatars2.githubusercontent.com/u/52801530?s=400&v=4)](http://fvcproductions.com)  | [![Robert](https://avatars1.githubusercontent.com/u/42300628?s=400&v=4)](http://fvcproductions.com)  | [![Kehinde](https://avatars3.githubusercontent.com/u/33905131?s=460&v=4)](http://fvcproductions.com)  |
+| <a href="https://github.com/ac4059" target="_blank">`github.com/ac4059`</a> | <a href="https://github.com/eliseaston" target="_blank">`github.com/eliseaston`</a> | <a href="https://github.com/Clifford2910" target="_blank">`github.com/Clifford2910`</a> | <a href="https://github.com/ingridbjarman" target="_blank">`github.com/ingridbjarman`</a> | <a href="https://github.com/robertwoolley99" target="_blank">`github.com/robertwoolley99`</a> | <a href="https://github.com/KOlofinmoyin" target="_blank">`github.com/KOlofinmoyin`</a>
 
 ### Collaboration:
 1. Our card wall is here: https://trello.com/b/m2WH1cSw/fantastic-makers-group-2-final-project
-2. Read blogposts of our adventures as a team at: 
+2. Read blogposts of our adventures as a team at:
