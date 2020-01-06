@@ -1,6 +1,10 @@
 # Route around app.
 An API-based route planner app. for runners and dog-walkers in London. :running: :runner:
 
+```
+                                    [Splash-page Image placeholder]
+```
+
 ## Quickstart
 ### Installation
 First, clone this repository git@github.com:Fantastic-Makers-Group-2-final-Project/Route_Around.git Then:
