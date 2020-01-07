@@ -5,14 +5,14 @@ An API-based route planner app. for runners and dog-walkers in London. :running:
                                     [Splash-page Image placeholder]
 ```
 ## Index
-* [Installation] (#Install)
-* [User Stories] (#User Stories)
-* [Usages] (#Usages)
-* [Tech Stack] (#Tech Stack)
-* [Tests] (#Jasmine)
-* [Ceremonies] (#Ceremonies)
-* [Team] (#Team)
-* [Collaboration] (#Collaboration)
+* [Installation](#Install)
+* [User Stories](#User_Stories)
+* [Usages](#Usages)
+* [Tech Stack](#Tech_Stack)
+* [Tests](#Jasmine)
+* [Ceremonies](#Ceremonies)
+* [Team](#Team)
+* [Collaboration](#Collaboration)
 
 ## Quickstart
 ### Installation
@@ -23,7 +23,7 @@ First, clone this repository git@github.com:Fantastic-Makers-Group-2-final-Proje
 > npm install
 ```
 
-## <a name="User Stories">User stories:</a>
+## <a name="User_Stories">User stories:</a>
 ```
 As a user
 So I know how far I'm running
@@ -83,7 +83,7 @@ I want to be able to view a leader-board
 [Image placeholder]
 ```
 
-### <a name="Tech Stack"> Tech Stack </a>
+### <a name="Tech_Stack"> Tech Stack </a>
 - React
 - Node
 - Java Script
