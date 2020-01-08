@@ -1,7 +1,5 @@
 function findCoordinates([lat,long], distance, angle) {
-console.log(lat, long)
-output = [lat, long]
-return output
+  return [lat,long]
 }
 
 module.exports = findCoordinates;
