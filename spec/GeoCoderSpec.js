@@ -4,10 +4,10 @@
 describe('Geocoder', function () {
 
 
-  it('returns an expected lat for a known postcode', async function() {
+  it('returns an expected lat for a known postcode', function() {
   var geocoder = new google.maps.Geocoder();
   var address = "RH2 9BG"
-  geocoder.geocode( { 'address': address}, await function(results, status){
+  geocoder.geocode( { 'address': address}, function(results, status){
   var latitude = results[0].geometry.location.lat();
   console.log(latitude);
   expect(latitude).toEqual(51.2379692)});
