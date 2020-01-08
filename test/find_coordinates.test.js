@@ -1,5 +1,5 @@
 const findCoordinates = require('../src/find_coordinates');
 
-test('it returns a new coordinate of 0,0 when the start point is 0,0 and the distance is 0', () => {
-  expect(findCoordinates([0, 0], 0)).toEqual({"latitude": 0, "longitude": 0});
+test('it returns 3 new coordinates of 0,0 with start point 0,0 and distance 0', () => {
+  expect(findCoordinates([0,0], 0)).toEqual([{"latitude": 0, "longitude": 0}, {"latitude": 0, "longitude": 0}, {"latitude": 0, "longitude": 0}]);
 });

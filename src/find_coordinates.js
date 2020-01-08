@@ -1,5 +1,5 @@
 function findCoordinates([lat,long], distance) {
-  return {"latitude": lat, "longitude": long}
+  return [{"latitude": 0, "longitude": 0}, {"latitude": 0, "longitude": 0}, {"latitude": 0, "longitude": 0}]
 }
 
 module.exports = findCoordinates;
