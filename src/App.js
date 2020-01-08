@@ -1,4 +1,3 @@
-// var styleSheet = require('src/App.css');
 var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
