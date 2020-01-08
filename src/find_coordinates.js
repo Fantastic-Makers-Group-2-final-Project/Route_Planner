@@ -1,4 +1,4 @@
-function findCoordinates(lat,long) {
+function findCoordinates([lat,long], distance, angle) {
 console.log(lat, long)
 output = [lat, long]
 return output
