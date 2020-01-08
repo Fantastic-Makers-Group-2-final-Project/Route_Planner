@@ -7,6 +7,10 @@ const express = require('express')
 const app = express()
 const port = 3000
 
-app.get('/', (req, res) => res.send('RouteAround - the route planner for urban runners, leisurely strollers and dogwalkers'))
+app.get('/', function (req, res) {
+  res.send(JSON.stringify({'RouteAround - the route planner for urban runners, leisurely strollers and dogwalkers'}));
+});
 
-app.listen(port, () => console.log(`Example app listening on port ${port}!`))
+app.listen(port, function () {
+  console.log(`Example app listening on port ${port}!`);
+});
