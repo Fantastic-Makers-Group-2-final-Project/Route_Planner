@@ -1,6 +1,6 @@
 'user strict';
 
-let Geocoder = {}
+const Geocoder = {};
 
 Geocoder.getCoordinates = async function(postcode) {
     const locator = new google.maps.Geocoder();
