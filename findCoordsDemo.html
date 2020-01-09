@@ -44,5 +44,22 @@
   <script>
 
     var apiKey = 'AIzaSyDro0XKEZYd8mj42cXWVukmO0WKJstaAYs';
+    var map;
+
+    function initialize() {
+      var mapOptions = {
+        zoom: 17,
+        center: {lat: 51.5173436, lng: -0.0754695}
+      };
+      map = new google.maps.Map(document.getElementById('map'), mapOptions);
+    };
+
+      $(window).on('load', initialize);
 
   </script>
+</head>
+
+<body>
+  <div id="map"></div>
+</body>
+</html>
