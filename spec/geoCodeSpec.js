@@ -1,12 +1,14 @@
 "use strict";
 
 describe('Geocode', function() {
-var output;
-beforeEach(async function() {
- output = new Geocode('RH2 9BG');
-});
+  it('gets the latitude from our postcode', async function(){
+    const result = await Geocoder.getCoordinates('RH2 9BG');
+    expect(result.lat).toEqual(51.2379692);
+  });
 
-  it('gets the latitude  from our postcode', function(){
-    const test =  output.latitude
-    expect(test).toEqual(51.2379692)});
-});
+  it('gets the longitude from our postcode', async function(){
+    const result = await Geocoder.getCoordinates('RH2 9BG');
+    expect(result.lng).toEqual(-0.2060545);
+  });
+
+})
