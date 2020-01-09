@@ -8,12 +8,16 @@
 // }
 
 
-
-
-function Geocode(input){
+function Geocode(input) {
   this.input = input
-  var locator = new google.maps.Geocoder();
-  locator.geocode( {'address': this.input}, function (results, status){
-    this.location = results[0].geometry.location();
-  })
+  let locator = new google.maps.Geocoder();
+  locator.geocode( { 'address': this.input }, function (results, status) {
+    this.latitude = results[0].geometry.location.lat();
+    console.log(this.latitude)
+  });
+}
+
+Geocode.prototype.latitude = function() {
+  // console.log(this.latitude)
+  return this.latitude;
 }
