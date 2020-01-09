@@ -40,7 +40,7 @@
   src="https://code.jquery.com/jquery-3.4.1.js"
   integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
   crossorigin="anonymous"></script>
-  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDro0XKEZYd8mj42cXWVukmO0WKJstaAYs&libraries=places,drawing"></script>
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDro0XKEZYd8mj42cXWVukmO0WKJstaAYs&libraries=places,geometry"></script>
   <script>
 
     var apiKey = 'AIzaSyDro0XKEZYd8mj42cXWVukmO0WKJstaAYs';
@@ -52,6 +52,21 @@
         center: {lat: 51.5173436, lng: -0.0754695}
       };
       map = new google.maps.Map(document.getElementById('map'), mapOptions);
+
+      findCoordinates();
+    };
+
+    function findCoordinates() {
+      var startPoint = new google.maps.LatLng(51.5173436, -0.0754695);
+      var distance = 100;
+      var bearing = 0;
+
+      var endPoint = google.maps.geometry.spherical.computeOffset(startPoint, distance, bearing);
+      console.log(endPoint);
+      var waypointB = new google.maps.Marker({
+        position: endPoint,
+        map: map
+      });
     };
 
       $(window).on('load', initialize);
