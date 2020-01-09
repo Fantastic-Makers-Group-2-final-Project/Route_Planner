@@ -7,10 +7,13 @@
 //   return (latitude)
 // }
 
-function Geocode(input
+
+
+
+function Geocode(input){
   this.input = input
   var locator = new google.maps.Geocoder();
-  locator.geocode( {'address': this.input}, function(results, status){
-    
+  locator.geocode( {'address': this.input}, function (results, status){
+    this.location = results[0].geometry.location();
   })
 }

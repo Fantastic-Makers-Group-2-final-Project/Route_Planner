@@ -7,6 +7,5 @@ beforeEach(function() {
 });
 
   it('gets the latitude  from our postcode', function(){
-    // expect(output).toEqual(51.2379692)});
     expect(output.latitude).toEqual(51.2379692)});
 });
