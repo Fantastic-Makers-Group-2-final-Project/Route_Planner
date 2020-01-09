@@ -43,7 +43,6 @@
   <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDro0XKEZYd8mj42cXWVukmO0WKJstaAYs&libraries=places,geometry"></script>
   <script>
 
-    var apiKey = 'AIzaSyDro0XKEZYd8mj42cXWVukmO0WKJstaAYs';
     var map;
 
     function initialize() {
@@ -62,11 +61,11 @@
       var heading = 0;
 
       var endPoint = google.maps.geometry.spherical.computeOffset(startPoint, distance, heading);
-      console.log(endPoint.lat());
-      console.log(endPoint.lng());
+      // console.log(endPoint.lat());
+      // console.log(endPoint.lng());
       console.log(endPoint.toJSON());
-      console.log(endPoint.toString());
-      console.log(endPoint.toUrlValue());
+      // console.log(endPoint.toString());
+      // console.log(endPoint.toUrlValue());
       var waypointB = new google.maps.Marker({
         position: endPoint,
         map: map
