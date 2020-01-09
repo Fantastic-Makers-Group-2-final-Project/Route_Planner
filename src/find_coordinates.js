@@ -11,10 +11,13 @@ function findCoordinates([lat,long], distance) {
 module.exports = findCoordinates;
 
 
+
+
 WaypointA = function([lat, long], distance) {
   this._startPoint = [lat, long];
   this._totalDistance = distance;
   this.distance = this._totalDistance / 4
+  this._bearings = 45
 }
 
 WaypointA.prototype.calculate = function() {
@@ -25,7 +28,8 @@ WaypointA.prototype.calculate = function() {
 WaypointB = function([lat, long], distance) {
   this._startPoint = [lat, long];
   this._totalDistance = distance;
-  this.distance = this._totalDistance / 4
+  this.distance = this._totalDistance / 2.828
+  this._bearings = 0
 }
 
 WaypointB.prototype.calculate = function() {
@@ -37,6 +41,7 @@ WaypointC = function([lat, long], distance) {
   this._startPoint = [lat, long];
   this._totalDistance = distance;
   this.distance = this._totalDistance / 4
+  this._bearings = 315
 }
 
 WaypointC.prototype.calculate = function() {
