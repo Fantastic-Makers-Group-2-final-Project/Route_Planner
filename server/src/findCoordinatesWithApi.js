@@ -1,8 +1,7 @@
 const geometry = require('spherical-geometry-js');
 
-function findCoordinates() {
-  var startPoint = new geometry.LatLng(0,0);
-  var distance = 0;
+function findCoordinates(coordinates, distance) {
+  var startPoint = new geometry.LatLng(coordinates[0], coordinates[1]);
   var heading = 0;
 
   var endPoint = geometry.computeOffset(startPoint, distance, heading);
