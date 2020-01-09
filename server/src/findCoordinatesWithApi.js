@@ -1,11 +1,15 @@
 const geometry = require('spherical-geometry-js');
 
-function findCoordinates(coordinates, distance) {
-  var startPoint = new geometry.LatLng(coordinates[0], coordinates[1]);
-  var heading = 0;
+function findCoordinates([lat,lng], distance) {
 
-  var endPoint = geometry.computeOffset(startPoint, distance, heading);
-  return endPoint.toJSON();
+  var startPoint = new geometry.LatLng(lat,lng);
+
+  var wayPointA = geometry.computeOffset(startPoint, distance/4, 45);
+  var wayPointB = geometry.computeOffset(startPoint, distance/2.828, 0);
+  var wayPointC = geometry.computeOffset(startPoint, distance/4, 315);
+
+  newCoordinates = [wayPointA.toJSON(), wayPointB.toJSON(), wayPointC.toJSON()];
+  return newCoordinates;
 };
 
 module.exports = findCoordinates;
