@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+  <meta charset="utf-8">
+  <title>Route Around FindCoordinates Demo</title>
+  <style>
+    html, body, #map {
+      height: 100%;
+      margin: 0px;
+      padding: 0px
+    }
+
+    #panel {
+      position: absolute;
+      top: 5px;
+      left: 50%;
+      margin-left: -180px;
+      z-index: 5;
+      background-color: #fff;
+      padding: 5px;
+      border: 1px solid #999;
+    }
+
+    #bar {
+      width: 240px;
+      background-color: rgba(255, 255, 255, 0.75);
+      margin: 8px;
+      padding: 4px;
+      border-radius: 4px;
+    }
+
+    #autoc {
+      width: 100%;
+      box-sizing: border-box;
+    }
+  </style>
+
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDro0XKEZYd8mj42cXWVukmO0WKJstaAYs&libraries=places,geometry"></script>
+  <script>
+
+    var map;
+
+    function initialize() {
+      var mapOptions = {
+        zoom: 17,
+        center: {lat: 51.5178767, lng: -0.0762007}
+      };
+      map = new google.maps.Map(document.getElementById('map'), mapOptions);
+
+      findCoordinates();
+    };
+
+    function findCoordinates() {
+      var startPoint = new google.maps.LatLng(51.5178767, -0.0762007);
+      var distance = 0;
+      var heading = 0;
+
+      var endPoint = google.maps.geometry.spherical.computeOffset(startPoint, distance, heading);
+      // console.log(endPoint.lat());
+      // console.log(endPoint.lng());
+      console.log(endPoint.toJSON());
+      // console.log(endPoint.toString());
+      // console.log(endPoint.toUrlValue());
+      var waypointB = new google.maps.Marker({
+        position: endPoint,
+        map: map
+      });
+    };
+
+      $(window).on('load', initialize);
+
+  </script>
+</head>
+
+<body>
+  <div id="map"></div>
+</body>
+</html>
