@@ -1,16 +1,18 @@
 const googleMapsClient = require('@google/maps').createClient({
-  key: 'AIzaSyDro0XKEZYd8mj42cXWVukmO0WKJstaAYs'
+  key: 'AIzaSyDro0XKEZYd8mj42cXWVukmO0WKJstaAYs',
+  Promise: Promise
 })
 
-const RoadSnap = {};
-
-RoadSnap.snapCoordinates = async function([lat, lng]) {
-  // const coordsSnapper = googleMapsClient.snapToRoads();
-  const snappedCoords = await new Promise(function(resolve, reject) {
-    googleMapsClient.snapToRoads({ path: [lat, lng] }, function(results, status) {
-      resolve(results);
-    })
+async function snapCoordinates([lat, lng]) {
+  googleMapsClient.snapToRoads({
+    path: [
+      [lat, lng]
+    ],
+  }).asPromise().then((response) => {
+    console.log(response.json.snappedPoints[0].location);
+    return response.json.snappedPoints[0].location;
   })
+  .catch(err => err);
 }
 
-module.exports = RoadSnap.snapCoordinates;
+module.exports = snapCoordinates;
