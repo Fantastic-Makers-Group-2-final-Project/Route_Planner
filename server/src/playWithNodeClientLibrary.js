@@ -1,11 +1,13 @@
 const googleMapsClient = require('@google/maps').createClient({
-  key: 'AIzaSyDro0XKEZYd8mj42cXWVukmO0WKJstaAYs'
+  key: 'AIzaSyDro0XKEZYd8mj42cXWVukmO0WKJstaAYs',
+  Promise: Promise
 });
 
-googleMapsClient.geocode({
-  address: '50 Commercial Street, London, E1 6LT'
-}, function(err, response) {
-  if (!err) {
-    console.log(response.json.results);
-  }
-});
+googleMapsClient.snapToRoads({
+  path: [
+    [51.5178767,-0.0762007]
+  ],
+}).asPromise().then((response) => {
+  console.log(response.json.snappedPoints)
+})
+.catch(err => console.log(err));
