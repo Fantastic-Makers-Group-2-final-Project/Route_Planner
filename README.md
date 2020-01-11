@@ -25,6 +25,10 @@ First, clone this repository git@github.com:Fantastic-Makers-Group-2-final-Proje
 
 ## <a name="User_Stories">User stories:</a>
 ```
+aa|bb|cc
+--|--|--
+ee|ff|gg
+
 As a user
 So I know how far I'm running
 I want to be able to pick a distance
