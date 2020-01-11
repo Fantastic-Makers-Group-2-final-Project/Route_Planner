@@ -22,60 +22,45 @@ First, clone this repository git@github.com:Fantastic-Makers-Group-2-final-Proje
 ```
 > npm install
 ```
-![IMG_0141](https://user-images.githubusercontent.com/33905131/72198504-94519e80-3426-11ea-879e-940db7afb917.jpg)
-
-![IMG_0321](33905131/72198387-6cf9d200-3424-11ea-8650-3297fd5082b7.PNG?raw=true)
-
-<img src="/media/2018/08/kitten.jpg" alt="Kitten" title="A cute kitten" width="150" height="100" />
-
-<img src="https://user-images.githubusercontent.com/33905131/72197906-797b2c00-341e-11ea-9a32-a9f341c485d6.JPG" alt="a recovering PM" width="150" height="100"/>
 
 ## <a name="User_Stories">User stories:</a>
 | Story | Persona |
 | :--- | ---:|
-| | <img src="images/super_a.jpeg" width="100"> |
-| `As a user super-fit Makers coach,`<br>`So I know how far I'm running,`<br>`I want to be able to pick a distance.`| |
+| `As a user super-fit Makers coach,`<br>`So I know how far I'm running,`<br>`I want to be able to pick a distance.`| <img src="images/super_a.jpeg" width="100"> |
 
 | Story | Persona |
 | :--- | ---:|
-| | <img src="images/super_d.jpeg" width="100"> |
-| `As a nature loving - yoga instructor,`<br>`So I can go for a run and come back home,`<br>`I want to be able to plan a circular route.`| |
+| `As a nature loving - yoga instructor,`<br>`So I can go for a run and come back home,`<br>`I want to be able to plan a circular route.`| <img src="images/super_d.jpeg" width="100"> |
 
 | Story | Persona |
 | :--- | ---:|
-| | <img src="images/super_m.jpeg" width="100"> |
-| `As a snazzy - dog walker,`<br>`So that I know I'm following my route,`<br>`I want to be able to track my location.`| |
+| `As a snazzy - dog walker,`<br>`So that I know I'm following my route,`<br>`I want to be able to track my location.`| <img src="images/super_m.jpeg" width="100"> |
 
 ```
 --- MVP (above) --
 ```
 | Story | Persona |
 | :--- | ---:|
-| | <img src="images/super_k.jpeg" width="100"> |
-| `As a jazzy Makers coach,`<br>`So that I can wear appropriate clothing,`<br>`I want to know what the weather is/will be like.`| |
+| `As a jazzy Makers coach,`<br>`So that I can wear appropriate clothing,`<br>`I want to know what the weather is/will be like.`| <img src="images/super_k.jpeg" width="100"> |
 
 | Story | Persona |
 | :--- | ---:|
-| | <img src="images/super_s.jpeg" width="100"> |
-| `As a super-chilled Makers coach,`<br>`So that I can eat or drink during my walk,`<br>`I want the option to see all cafes and restaurants within 500m of my location on the map.`| |
+| `As a super-chilled Makers coach,`<br>`So that I can eat or drink during my walk,`<br>`I want the option to see all cafes and restaurants within 500m of my location on the map.`| <img src="images/super_s.jpeg" width="100"> |
 
 ```
 --- nice to haves --
 ```
 | Story | Persona |
 | :--- | ---:|
-| | <img src="images/super_k.jpeg" width="100"> |
-| `As a jazzy Makers coach,`<br>`So that I can choose how long I want to be out,`<br>`I want my route to be based on a time and speed that I choose.`| |
+| `As a jazzy Makers coach,`<br>`So that I can choose how long I want to be out,`<br>`I want my route to be based on a time and speed that I choose.`| <img src="images/super_k.jpeg" width="100"> |
 
 | Story | Persona |
 | :--- | ---:|
-| | <img src="images/super_d.jpeg" width="100"> |
-| `As a nature loving - yoga instructor,`<br>`So that I can remember/celebrate the nice walk I took last week,`<br>`I want to be able to view my previous routes.`| |
+| `As a nature loving - yoga instructor,`<br>`So that I can remember/celebrate the nice walk I took last week,`<br>`I want to be able to view my previous routes.`| <img src="images/super_d.jpeg" width="100"> |
 
 | Story | Persona |
 | :--- | ---:|
-| | <img src="images/super_a.jpeg" width="100"> |
-| `As a user super-fit Makers coach,`<br>`So that I can challenge my friends to compete,`<br>`I want to be able to view a leader-board.`| |
+| `As a user super-fit Makers coach,`<br>`So that I can challenge my friends to compete,`<br>`I want to be able to view a leader-board.`| <img src="images/super_a.jpeg" width="100"> |
 
 
 ## <a name="Usages">Usages</a>
