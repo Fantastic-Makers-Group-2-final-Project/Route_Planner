@@ -1,6 +1,10 @@
 function coordsObjectToArray(input){
-  console.log (input[0].lat)
-  return [[input[0].lat, input[0].lng]]
+  convertedCoords = []
+
+  for (i = 0; i < input.length; i++) {
+    convertedCoords.push([input[i].lat, input[i].lng])
+  }
+  return convertedCoords
 }
 
 
