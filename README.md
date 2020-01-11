@@ -22,7 +22,7 @@ First, clone this repository git@github.com:Fantastic-Makers-Group-2-final-Proje
 ```
 > npm install
 ```
-![IMG_0321](https://user-images.githubusercontent.com/33905131/72198246-ac272380-3422-11ea-903b-d464f11b1e96.JPG)
+![IMG_0321](https://user-images.githubusercontent.com/33905131/72198387-6cf9d200-3424-11ea-8650-3297fd5082b7.PNG)
 
 <img src="/media/2018/08/kitten.jpg" alt="Kitten" title="A cute kitten" width="150" height="100" />
 
