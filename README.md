@@ -24,42 +24,44 @@ First, clone this repository git@github.com:Fantastic-Makers-Group-2-final-Proje
 ```
 
 ## <a name="User_Stories">User stories:</a>
+| Story 1 | Persona |
+| :--- | ---:|
+| `As a user super-fit Makers coach,`<br>`So I know how far I'm running,`<br>`I want to be able to pick a distance.`| <img src="images/super_a.jpg" width="100"> |
+
+| Story 2 | Persona |
+| :--- | ---:|
+| `As a nature loving - yoga instructor,`<br>`So I can go for a run and come back home,`<br>`I want to be able to plan a circular route.`| <img src="images/super_d.jpg" width="100"> |
+
+| Story 3 | Persona |
+| :--- | ---:|
+| `As a snazzy - dog walker,`<br>`So that I know I'm following my route,`<br>`I want to be able to track my location.`| <img src="images/super_m.jpg" width="100"> |
+
 ```
-As a user
-So I know how far I'm running
-I want to be able to pick a distance
-
-As a runner/user
-So I can go for a run and come back home
-I want to be able to plan a circular route
-
 --- MVP (above) --
-As a user
-So that I know I'm following my route
-I want to be able to track my location
+```
+| Story 4 | Persona |
+| :--- | ---:|
+| `As a jazzy Makers coach,`<br>`So that I can wear appropriate clothing,`<br>`I want to know what the weather is/will be like.`| <img src="images/super_k.jpg" width="100"> |
 
-As a user
-So that I can wear appropriate clothing
-I want to know what the weather is/will be like
-
-As a user
-So that I can eat or drink during my walk
-I want the option to see all cafes and restaurants within 500m of my location on the map
-
--- Nice to have --
-As a user
-So that I can choose how long I want to be out
-I want my route to be based on a time and speed that I choose
-
-As a user
-So that I can remember the nice walk I took last week
-I want to be able to view my previous routes
-
-As a user
-So that I can challenge my friends to compete
-I want to be able to view a leader-board
+| Story 5 | Persona |
+| :--- | ---:|
+| `As a super-chilled Makers coach,`<br>`So that I can eat or drink during my walk,`<br>`I want the option to see all cafes and restaurants within 500m of my location on the map.`| <img src="images/super_s.jpg" width="100"> |
 
 ```
+--- nice to haves --
+```
+| Story 6 | Persona |
+| :--- | ---:|
+| `As a jazzy Makers coach,`<br>`So that I can choose how long I want to be out,`<br>`I want my route to be based on a time and speed that I choose.`| <img src="images/super_k.jpg" width="100"> |
+
+| Story 7 | Persona |
+| :--- | ---:|
+| `As a nature loving - yoga instructor,`<br>`So that I can remember/celebrate the nice walk I took last week,`<br>`I want to be able to view my previous routes.`| <img src="images/super_d.jpg" width="100"> |
+
+| Story 8 | Persona |
+| :--- | ---:|
+| `As a user super-fit Makers coach,`<br>`So that I can challenge my friends to compete,`<br>`I want to be able to view a leader-board.`| <img src="images/super_a.jpg" width="100"> |
+
 
 ## <a name="Usages">Usages</a>
 ### Choose Distance
