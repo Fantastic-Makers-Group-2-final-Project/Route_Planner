@@ -22,7 +22,6 @@ First, clone this repository git@github.com:Fantastic-Makers-Group-2-final-Proje
 ```
 > npm install
 ```
-<img src="images/super_a.jpeg" width="100">
 ![IMG_0141](https://user-images.githubusercontent.com/33905131/72198504-94519e80-3426-11ea-879e-940db7afb917.jpg)
 
 ![IMG_0321](33905131/72198387-6cf9d200-3424-11ea-8650-3297fd5082b7.PNG?raw=true)
@@ -34,10 +33,8 @@ First, clone this repository git@github.com:Fantastic-Makers-Group-2-final-Proje
 ## <a name="User_Stories">User stories:</a>
 | Story | Persona |
 | :--- | ---:|
-| bb | ![IMG_0321](https://user-images.githubusercontent.com/33905131/72197906-797b2c00-341e-11ea-9a32-a9f341c485d6.JPG) |
-| As a user
-So I know how far I'm running
-I want to be able to pick a distance| gg |
+| | !<img src="images/super_a.jpeg" width="100"> |
+| `As a user super-fit Makers coach, So I know how far I'm running, I want to be able to pick a distance.`| |
 
 ```
 As a user
