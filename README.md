@@ -22,6 +22,9 @@ First, clone this repository git@github.com:Fantastic-Makers-Group-2-final-Proje
 ```
 > npm install
 ```
+<img src="/media/2018/08/kitten.jpg" alt="Kitten" title="A cute kitten" width="150" height="100" />
+
+<img src="https://user-images.githubusercontent.com/33905131/72197906-797b2c00-341e-11ea-9a32-a9f341c485d6.JPG" alt="a recovering PM" width="150" height="100"/>
 
 ## <a name="User_Stories">User stories:</a>
 | Story | Persona |
