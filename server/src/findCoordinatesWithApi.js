@@ -9,7 +9,7 @@ function findCoordinates([lat,lng], distance) {
   var wayPointB = geometry.computeOffset(startPoint, distance/2.828, 0);
   var wayPointC = geometry.computeOffset(startPoint, distance/4, 315);
 
-  routeCoordinates = [startPointFormatted.toJSON(), wayPointA.toJSON(), wayPointB.toJSON(), wayPointC.toJSON(), startPointFormatted.toJSON()];
+  routeCoordinates = [startPointFormatted.toJSON(), wayPointA.toJSON(), wayPointB.toJSON(), wayPointC.toJSON()];
   return routeCoordinates;
 };
 
