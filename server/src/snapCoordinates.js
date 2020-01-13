@@ -19,6 +19,3 @@ const coordsObjectToArray = require('./coordsObjectToArray.js')
 }
 
 module.exports = snapCoordinates;
-// snapCoordinates([[51.574427, -0.252669]]).then(data => {
-//   console.log(data);
-// });
