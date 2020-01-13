@@ -14,7 +14,6 @@ function findAndSnapCoords(startPoint, distance) {
   });
   return snappedCoords;
 
-
 }
 
 module.exports = findAndSnapCoords;
