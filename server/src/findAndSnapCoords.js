@@ -1,4 +1,4 @@
-function findAndSnapCoords([lat, lng], distance) {
+function findAndSnapCoords(startPoint, distance) {
   return [0, 0, 0, 0, 0];
 }
 
