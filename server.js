@@ -5,8 +5,8 @@ const app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-const routes = require('../routes/routes.js')(app);
+const routes = require('./routes/routes.js')(app);
 
-const server = app.listen(3001, () => {
+const server = app.listen(process.env.PORT || 3001, () => {
   console.log('listening on port %s...', server.address().port);
 });
