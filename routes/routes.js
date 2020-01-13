@@ -6,9 +6,9 @@ const appRouter = (app) => {
   })
 
   app.post('/generate-waypoint-coordinates', (req, res) => {
-    let coordinates = findAndSnapCoords(req.body.coordinates,req.body.distance);
-    console.log(req.body)
-    res.send(coordinates)
+    let coordinates = await findAndSnapCoords(req.body.coordinates,req.body.distance);
+    .then(console.log(req.body))
+    .then(res.send(coordinates))
   })
 };
 
