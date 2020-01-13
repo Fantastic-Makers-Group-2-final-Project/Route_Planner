@@ -1,4 +1,4 @@
-const findCoordinates = require('../src/findCoordinatesWithApi')
+const findAndSnapCoordsCoordinates = require('../src/findAndSnapCoords')
 
 const appRouter = (app) => {
   app.get('/heartbeat', (req, res) => {
@@ -6,7 +6,7 @@ const appRouter = (app) => {
   })
 
   app.post('/generate-waypoint-coordinates', (req, res) => {
-    let coordinates = findCoordinates(req.body.coordinates,req.body.distance);
+    let coordinates = findAndSnapCoords(req.body.coordinates,req.body.distance);
     console.log(req.body)
     res.send(coordinates)
   })
