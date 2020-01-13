@@ -1,4 +1,12 @@
-const app = require('./client/src/App');
-app.listen(process.env.PORT || 5678, () => {
-  console.log('example app listening on port 5678')
-})
+const express = require('express');
+const bodyParser = require('body-parser');
+const app = express();
+
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+
+const routes = require('./routes/routes.js')(app);
+
+const server = app.listen(3001, () => {
+  console.log('listening on port %s...', server.address().port);
+});
