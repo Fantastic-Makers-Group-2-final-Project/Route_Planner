@@ -1,7 +1,7 @@
 # Route around app.
 An API-based route planner app. for runners and dog-walkers in London. :running: :runner:
 <p align="center">
-  <img src="./route_around.gif" width="350" title="Route Around app demo">
+  <img src="./route_around.gif" width="600" height="100px" title="Route Around app demo">
 </p>
 
 
@@ -37,43 +37,43 @@ To start the web server, run
 | `/generate-waypoint-coordinates` | `POST` | `{"coordinates":{"lat": 51.4947, "lng": 0.0774}, "distance": 5}` | Returns the Lat/Lng coordinates of the generated waypoints. Expects the Content-Type Header to be set to JSON. |
 
 ## <a name="User_Stories">User stories:</a>
-| Story 1 | Persona |
-| :--- | ---:|
-| `As a user super-fit Makers coach,`<br>`So I know how far I'm running,`<br>`I want to be able to pick a distance.`| <img src="images/super_a.jpg" width="100"> |
+| Story 1 |
+| :--- |
+| `As a user super-fit Makers coach,`<br>`So I know how far I'm running,`<br>`I want to be able to pick a distance.`|
 
 | Story 2 | Persona |
-| :--- | ---:|
-| `As a nature loving - yoga instructor,`<br>`So I can go for a run and come back home,`<br>`I want to be able to plan a circular route.`| <img src="images/super_d.jpg" width="100"> |
+| :--- |
+| `As a nature loving - yoga instructor,`<br>`So I can go for a run and come back home,`<br>`I want to be able to plan a circular route.`|
 
-| Story 3 | Persona |
-| :--- | ---:|
-| `As a snazzy - dog walker,`<br>`So that I know I'm following my route,`<br>`I want to be able to track my location.`| <img src="images/super_m.jpg" width="100"> |
+| Story 3 |
+| :--- |
+| `As a snazzy - dog walker,`<br>`So that I know I'm following my route,`<br>`I want to be able to track my location.`|
 
 ```
 --- MVP (above) --
 ```
-| Story 4 | Persona |
-| :--- | ---:|
-| `As a jazzy Makers coach,`<br>`So that I can wear appropriate clothing,`<br>`I want to know what the weather is/will be like.`| <img src="images/super_k.jpg" width="100"> |
+| Story 4 |
+| :--- |
+| `As a jazzy Makers coach,`<br>`So that I can wear appropriate clothing,`<br>`I want to know what the weather is/will be like.`|
 
-| Story 5 | Persona |
-| :--- | ---:|
-| `As a super-chilled Makers coach,`<br>`So that I can eat or drink during my walk,`<br>`I want the option to see all cafes and restaurants within 500m of my location on the map.`| <img src="images/super_s.jpg" width="100"> |
+| Story 5 |
+| :--- |
+| `As a super-chilled Makers coach,`<br>`So that I can eat or drink during my walk,`<br>`I want the option to see all cafes and restaurants within 500m of my location on the map.`|
 
 ```
 --- nice to haves --
 ```
-| Story 6 | Persona |
-| :--- | ---:|
-| `As a jazzy Makers coach,`<br>`So that I can choose how long I want to be out,`<br>`I want my route to be based on a time and speed that I choose.`| <img src="images/super_k.jpg" width="100"> |
+| Story 6 |
+| :--- |
+| `As a jazzy Makers coach,`<br>`So that I can choose how long I want to be out,`<br>`I want my route to be based on a time and speed that I choose.`|
 
-| Story 7 | Persona |
-| :--- | ---:|
-| `As a nature loving - yoga instructor,`<br>`So that I can remember/celebrate the nice walk I took last week,`<br>`I want to be able to view my previous routes.`| <img src="images/super_d.jpg" width="100"> |
+| Story 7 |
+| :--- |
+| `As a nature loving - yoga instructor,`<br>`So that I can remember/celebrate the nice walk I took last week,`<br>`I want to be able to view my previous routes.`|
 
-| Story 8 | Persona |
-| :--- | ---:|
-| `As a user super-fit Makers coach,`<br>`So that I can challenge my friends to compete,`<br>`I want to be able to view a leader-board.`| <img src="images/super_a.jpg" width="100"> |
+| Story 8 |
+| :--- |
+| `As a user super-fit Makers coach,`<br>`So that I can challenge my friends to compete,`<br>`I want to be able to view a leader-board.`|
 
 
 ## <a name="Usages">Usages</a>
