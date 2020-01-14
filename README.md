@@ -1,9 +1,8 @@
 # Route around app.
 An API-based route planner app. for runners and dog-walkers in London. :running: :runner:
 
-```
-                                    [Splash-page Image placeholder]
-```
+<img src="/images/route_around.gif">
+
 ## Index
 * [Installation](#Install)
 * [Endpoints](#Endpoints)
@@ -132,4 +131,3 @@ Demos are scheduled and pitched at the designated Product owners (coaches).
 ### Collaboration:
 1. Our card wall is here: https://trello.com/b/m2WH1cSw/fantastic-makers-group-2-final-project
 2. Read blogposts of our adventures as a team at: https://medium.com/series/dac42574577d/edit
-
