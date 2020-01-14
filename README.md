@@ -1,7 +1,7 @@
 # Route around app.
 An API-based route planner app. for runners and dog-walkers in London. :running: :runner:
 <p align="center">
-  <img src="./route_around.gif" width="600" height="100px" title="Route Around app demo">
+  <img src="./route_around.gif" width="600" title="Route Around app demo">
 </p>
 
 
@@ -41,7 +41,7 @@ To start the web server, run
 | :--- |
 | `As a user super-fit Makers coach,`<br>`So I know how far I'm running,`<br>`I want to be able to pick a distance.`|
 
-| Story 2 | Persona |
+| Story 2 |
 | :--- |
 | `As a nature loving - yoga instructor,`<br>`So I can go for a run and come back home,`<br>`I want to be able to plan a circular route.`|
 
