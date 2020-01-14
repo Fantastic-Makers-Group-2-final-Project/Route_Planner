@@ -3,17 +3,23 @@ const googleMapsClient = require('@google/maps').createClient({
   Promise: Promise
 })
 
-const coordsObjectToArray = require('./coordsObjectToArray.js')
-
- function snapCoordinates(input) {
+ async function snapCoordinates(input) {
   return googleMapsClient.snapToRoads({
     path: input,
   }).asPromise().then((response) => {
-    output = []
+    waypoints = []
     for (i = 0; i < response.json.snappedPoints.length; i++){
-      output.push(response.json.snappedPoints[i].location)}
-    if (output.length > 0) output.push(output[0])
-    return output;
+      waypoints.push({
+        lat: response.json.snappedPoints[i].location.latitude,
+        lng: response.json.snappedPoints[i].location.longitude
+      });
+    }
+    
+    if (waypoints.length > 0){ 
+      waypoints.push(waypoints[0])
+    }
+
+    return waypoints;
   })
   .catch(err => err);
 }
