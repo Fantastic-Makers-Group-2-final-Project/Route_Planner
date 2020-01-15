@@ -7,7 +7,6 @@ function findCoordinates(startPoint, distance) {
   const offsetFactor = 0.7303821338
   var offsetDistance = distanceInMetres * offsetFactor;
 
-
   var centrePoint = geometry.computeOffset(startPoint, offsetDistance/divideFactor, 0)
 
   var startPointFormatted = geometry.computeOffset(startPoint, 0, 0);
