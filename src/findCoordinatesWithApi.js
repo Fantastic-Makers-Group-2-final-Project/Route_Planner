@@ -4,7 +4,8 @@ function findCoordinates(startPoint, distance) {
 
   var distanceInMetres = distance * 1000;
 
-  bearings = [[45, 0, 315], [135, 90, 45], [225, 180, 135], [315, 270, 225]].sample
+  var bearingsOptions = [[45, 0, 315], [135, 90, 45], [225, 180, 135], [315, 270, 225]]
+  var bearings = (bearingsOptions[Math.floor (Math.random() * bearingsOptions.length)])
 
   var startPointFormatted = geometry.computeOffset(startPoint, 0, 0);
   var wayPointA = geometry.computeOffset(startPoint, distanceInMetres/4, bearings[0]);
