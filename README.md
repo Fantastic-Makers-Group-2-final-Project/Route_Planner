@@ -1,9 +1,10 @@
 # Route around app.
 An API-based route planner app. for runners and dog-walkers in London. :running: :runner:
+<p align="center">
+  <img src="./route_around.gif" width="600" title="Route Around app demo">
+</p>
 
-```
-                                    [Splash-page Image placeholder]
-```
+
 ## Index
 * [Installation](#Install)
 * [Endpoints](#Endpoints)
@@ -36,66 +37,22 @@ To start the web server, run
 | `/generate-waypoint-coordinates` | `POST` | `{"coordinates":{"lat": 51.4947, "lng": 0.0774}, "distance": 5}` | Returns the Lat/Lng coordinates of the generated waypoints. Expects the Content-Type Header to be set to JSON. |
 
 ## <a name="User_Stories">User stories:</a>
-| Story 1 | Persona |
-| :--- | ---:|
-| `As a user super-fit Makers coach,`<br>`So I know how far I'm running,`<br>`I want to be able to pick a distance.`| <img src="images/super_a.jpg" width="100"> |
+|MVP |
+| :--- |
+| `As a user super-fit Makers coach,`<br>`So I know how far I'm running,`<br>`I want to be able to pick a distance.`|
+| `As a nature loving - yoga instructor,`<br>`So I can go for a run and come back home,`<br>`I want to be able to plan a circular route.`|
+| `As a snazzy - dog walker,`<br>`So that I know I'm following my route,`<br>`I want to be able to track my location.`|
 
-| Story 2 | Persona |
-| :--- | ---:|
-| `As a nature loving - yoga instructor,`<br>`So I can go for a run and come back home,`<br>`I want to be able to plan a circular route.`| <img src="images/super_d.jpg" width="100"> |
+| Nice to haves |
+| :--- |
+| `As a jazzy Makers coach,`<br>`So that I can wear appropriate clothing,`<br>`I want to know what the weather is/will be like.`|
+| `As a super-chilled Makers coach,`<br>`So that I can eat or drink during my walk,`<br>`I want the option to see all cafes and restaurants within 500m of my location on the map.`|
 
-| Story 3 | Persona |
-| :--- | ---:|
-| `As a snazzy - dog walker,`<br>`So that I know I'm following my route,`<br>`I want to be able to track my location.`| <img src="images/super_m.jpg" width="100"> |
-
-```
---- MVP (above) --
-```
-| Story 4 | Persona |
-| :--- | ---:|
-| `As a jazzy Makers coach,`<br>`So that I can wear appropriate clothing,`<br>`I want to know what the weather is/will be like.`| <img src="images/super_k.jpg" width="100"> |
-
-| Story 5 | Persona |
-| :--- | ---:|
-| `As a super-chilled Makers coach,`<br>`So that I can eat or drink during my walk,`<br>`I want the option to see all cafes and restaurants within 500m of my location on the map.`| <img src="images/super_s.jpg" width="100"> |
-
-```
---- nice to haves --
-```
-| Story 6 | Persona |
-| :--- | ---:|
-| `As a jazzy Makers coach,`<br>`So that I can choose how long I want to be out,`<br>`I want my route to be based on a time and speed that I choose.`| <img src="images/super_k.jpg" width="100"> |
-
-| Story 7 | Persona |
-| :--- | ---:|
-| `As a nature loving - yoga instructor,`<br>`So that I can remember/celebrate the nice walk I took last week,`<br>`I want to be able to view my previous routes.`| <img src="images/super_d.jpg" width="100"> |
-
-| Story 8 | Persona |
-| :--- | ---:|
-| `As a user super-fit Makers coach,`<br>`So that I can challenge my friends to compete,`<br>`I want to be able to view a leader-board.`| <img src="images/super_a.jpg" width="100"> |
-
-
-## <a name="Usages">Usages</a>
-### Choose Distance
-```
-[Image placeholder]
-```
-### Circular routes
-```
-[Image placeholder]
-```
-### Location tracking
-```
-[Image placeholder]
-```
-### Weather forecast
-```
-[Image placeholder]
-```
-### (via) Refreshment point(s)
-```
-[Image placeholder]
-```
+| Stretch |
+| :--- |
+| `As a jazzy Makers coach,`<br>`So that I can choose how long I want to be out,`<br>`I want my route to be based on a time and speed that I choose.`|
+| `As a nature loving - yoga instructor,`<br>`So that I can remember/celebrate the nice walk I took last week,`<br>`I want to be able to view my previous routes.`|
+| `As a user super-fit Makers coach,`<br>`So that I can challenge my friends to compete,`<br>`I want to be able to view a leader-board.`|
 
 ### <a name="Tech_Stack"> Tech Stack </a>
 - React
@@ -132,4 +89,3 @@ Demos are scheduled and pitched at the designated Product owners (coaches).
 ### Collaboration:
 1. Our card wall is here: https://trello.com/b/m2WH1cSw/fantastic-makers-group-2-final-project
 2. Read blogposts of our adventures as a team at: https://medium.com/series/dac42574577d/edit
-
