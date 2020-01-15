@@ -5,8 +5,8 @@ function findCoordinates(startPoint, distance) {
   var distanceInMetres = distance * 1000;
 
   var bearingsOptions = [[45, 0, 315], [135, 90, 45], [225, 180, 135], [315, 270, 225]]
-  var bearings = (bearing_options[Math.floor (Math.random() * bearingsOptions.length)])
-  
+  var bearings = (bearingsOptions[Math.floor (Math.random() * bearingsOptions.length)])
+
   console.log('bearings: ' + bearings);
 
   var startPointFormatted = geometry.computeOffset(startPoint, 0, 0);
@@ -19,4 +19,4 @@ function findCoordinates(startPoint, distance) {
 };
 
 // module.exports = findCoordinates;
-console.log(findCoordinates({lat: 51.4231886, lng: -0.2011214}, 5))
+console.log(findCoordinates({lat: 51.4231886, lng: -0.2011214}, 10))
