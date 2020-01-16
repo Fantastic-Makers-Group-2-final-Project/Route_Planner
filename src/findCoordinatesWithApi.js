@@ -1,4 +1,5 @@
 const geometry = require('spherical-geometry-js');
+const chooseBearings = require ('./chooseBearings');
 
 function findCoordinates(startPoint, distance) {
 
@@ -19,11 +20,4 @@ function findCoordinates(startPoint, distance) {
   return routeCoordinates;
 };
 
-// module.exports = findCoordinates;
-
-function chooseBearings(){
-  var bearingsIndex = Math.floor (Math.random() * 4);
-
-  return bearingsIndex;
-}
-console.log(findCoordinates({lat: 51.5178767, lng: -0.0762007}, 5));
+module.exports = findCoordinates;
