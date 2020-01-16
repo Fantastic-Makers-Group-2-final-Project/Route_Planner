@@ -10,7 +10,7 @@ function findCoordinates(startPoint, distance) {
   var bearingsOptions = [[45, 0, 315], [135, 90, 45], [225, 180, 135], [315, 270, 225]]
   var bearingsIndex = chooseBearings();
   console.log(`bearingsIndex: ${bearingsIndex}`);
-  // var bearingsIndex = 1;
+  // var bearingsIndex = 2;
   var bearings = bearingsOptions[bearingsIndex];
   console.log(`bearings: ${bearings}`);
 
