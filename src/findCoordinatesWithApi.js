@@ -1,4 +1,5 @@
 const geometry = require('spherical-geometry-js');
+const chooseBearings = require ('./chooseBearings');
 
 function findCoordinates(startPoint, distance) {
 
@@ -7,14 +8,15 @@ function findCoordinates(startPoint, distance) {
   var offsetDistance = distanceInMetres * offsetRatio;
 
   var bearingsOptions = [[45, 0, 315], [135, 90, 45], [225, 180, 135], [315, 270, 225]]
-  var bearings = (bearingsOptions[Math.floor (Math.random() * bearingsOptions.length)])
+  var bearingsIndex = chooseBearings();
+  var bearings = bearingsOptions[bearingsIndex];
 
   var startPointFormatted = geometry.computeOffset(startPoint, 0, 0);
   var wayPointA = geometry.computeOffset(startPoint, offsetDistance/4, bearings[0]);
   var wayPointB = geometry.computeOffset(startPoint, offsetDistance/2.828, bearings[1]);
   var wayPointC = geometry.computeOffset(startPoint, offsetDistance/4, bearings[2]);
 
-  routeCoordinates = [startPointFormatted.toJSON(), wayPointA.toJSON(), wayPointB.toJSON(), wayPointC.toJSON()];
+  var routeCoordinates = [startPointFormatted.toJSON(), wayPointA.toJSON(), wayPointB.toJSON(), wayPointC.toJSON()];
   return routeCoordinates;
 };
 
