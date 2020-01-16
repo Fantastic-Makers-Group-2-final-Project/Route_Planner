@@ -19,10 +19,11 @@ function findCoordinates(startPoint, distance) {
   return routeCoordinates;
 };
 
-module.exports = findCoordinates;
+// module.exports = findCoordinates;
 
 function chooseBearings(){
   var bearingsIndex = Math.floor (Math.random() * 4);
 
   return bearingsIndex;
 }
+console.log(findCoordinates({lat: 51.5178767, lng: -0.0762007}, 5));
