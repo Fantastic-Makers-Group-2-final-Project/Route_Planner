@@ -1,9 +1,6 @@
 # Route around app.
-An API-based route planner app. for runners and dog-walkers in London. :running: :runner:
-<p align="center">
-  <img src="./route_around.gif" width="600" title="Route Around app demo">
-</p>
-
+An route planning app using the Google Maps API, for urban runners, walkers and dog-walkers.
+:running: :runner:
 
 ## Index
 * [Installation](#Install)
