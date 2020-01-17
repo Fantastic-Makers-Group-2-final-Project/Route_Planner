@@ -1,6 +1,6 @@
 # Route around app.
 An route planning app using the Google Maps API, for urban runners, walkers and dog-walkers.
-:running: :runner:
+:running: :runner: :runner:
 
 ## Index
 * [Installation](#Install)
